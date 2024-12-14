@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5a77e697a4d8049abbc1dad1855ae5, type: 3}
+  m_Name: ItemsContainer
+  m_EditorClassIdentifier: 
+  commonItemsList:
+  - prefab: {fileID: 4240384778498827066, guid: d458644f2bca9dd4d9d3857c919228e2, type: 3}
+    score: 5
+  - prefab: {fileID: 7912968162882309922, guid: bc6d45130a3cc9048994430ef4e85849, type: 3}
+    score: 5
+  - prefab: {fileID: 7309957357673877238, guid: a9799e0078f47c448a946131ebeb5c76, type: 3}
+    score: 5
+  rareItemsList:
+  - prefab: {fileID: 1949255705693140386, guid: d1f042f4739246d4fb545fa354308be1, type: 3}
+    score: 10
+  epicItemsList:
+  - prefab: {fileID: 2079140411809508984, guid: 729115d23343ebd46986c4ac19b61560, type: 3}
+    score: 20
